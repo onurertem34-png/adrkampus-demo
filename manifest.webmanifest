@@ -1,0 +1,23 @@
+{
+  "name": "SRC Kampüs — SRC-5 Sınavı",
+  "short_name": "SRC Kampüs",
+  "lang": "tr",
+  "start_url": "/adrkampus-demo/",
+  "scope": "/adrkampus-demo/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e8f1ff",
+  "theme_color": "#0b3765",
+  "icons": [
+    {
+      "src": "/adrkampus-demo/ikon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/adrkampus-demo/ikon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
