@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b3765">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="SRC Kampüs">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="/adrkampus-demo/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/adrkampus-demo/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/adrkampus-demo/ikon-192.png">
+<title>SRC Kampüs</title>
+<style>
+  :root { --zemin: #e8f1ff; }
+  html, body { height: 100%; }
+  body { background: var(--zemin); overflow: hidden; }
+  #root { display: flex; height: 100%; flex: 1; }
+</style>
+<script>
+  window.__ADR_TABAN = '/adrkampus-demo';
+  try { history.replaceState(null, '', window.__ADR_TABAN + '/'); } catch (e) {}
+</script>
+</head>
+<body>
+<noscript>Uygulamayı görmek için JavaScript açık olmalı.</noscript>
+    
+    <div id="root"></div>
+  <script src="/adrkampus-demo/_expo/static/js/web/entry-858f1567fd4da6ee9a97592081144340.js" defer></script>
+</body>
+</html>
