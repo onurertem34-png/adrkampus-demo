@@ -1,4 +1,4 @@
-# SRC Kampüs — web demosu
+# Kampüs SRC — web demosu
 
 Yalnız derlenmiş dosyalar (kaynak kod bu depoda değil). Canlı: https://onurertem34-png.github.io/adrkampus-demo/
 
